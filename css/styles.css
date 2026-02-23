@@ -1,4 +1,4 @@
-/* ================= RESET ================= */
+/*  RESET  */
 
 body,
 h1, h2, h3, h4, h5, h6,
@@ -27,7 +27,7 @@ address {
   font-style: normal;
 }
 
-/* ================= BASE ================= */
+/* BASE  */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -58,7 +58,7 @@ body {
   overflow: hidden;
 }
 
-/* ================= LOGO ================= */
+/* LOGO  */
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -81,13 +81,13 @@ body {
   color: #f4f4fd;
 }
 
-/* ================= HEADER ================= */
+/*  HEADER  */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header__wrapper {
+.header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,18 +95,18 @@ body {
   padding: 24px 0;
 }
 
-.header__branding {
+.header-branding {
   display: flex;
   align-items: center;
   gap: 76px;
 }
 
-.menu__list {
+.menu-list {
   display: flex;
   gap: 40px;
 }
 
-.menu__link {
+.menu-link {
   display: block;
   padding: 24px 0;
   font-weight: 500;
@@ -116,8 +116,8 @@ body {
   color: #2e2f42;
 }
 
-.menu__link:hover,
-.menu__link:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
   outline: 2px solid #404bbf;
 }
@@ -127,7 +127,7 @@ body {
   gap: 40px;
 }
 
-.address__link {
+.address-link {
   display: block;
   padding: 24px 0;
   font-size: 16px;
@@ -136,13 +136,13 @@ body {
   color: #434455;
 }
 
-.address__link:hover,
-.address__link:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
   outline: 2px solid #404bbf;
 }
 
-/* ================= HERO ================= */
+/*  HERO */
 
 .hero {
   background-color: #2e2f42;
@@ -151,12 +151,12 @@ body {
   text-align: center;
 }
 
-.hero__content {
+.hero-content {
   max-width: 496px;
   margin: 0 auto;
 }
 
-.hero__content--title {
+.hero-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -165,7 +165,7 @@ body {
   margin-bottom: 48px;
 }
 
-/* ================= BUTTON ================= */
+/* BUTTON  */
 
 .button {
   display: inline-block;
@@ -189,41 +189,43 @@ body {
   outline: 2px solid #404bbf;
 }
 
-/* ================= TITLES ================= */
+/*TITLES */
 
 .title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 72px;
   color: #2e2f42;
 }
 
-/* ================= FEATURES ================= */
+/* FEATURES */
 
-.features__inner {
+.features-inner {
   display: flex;
   gap: 24px;
 }
 
-.features__box {
+.features-box {
   width: calc((100% - 72px)/4);
 }
 
-.features__box-name,
-.team__name,
-.portfolio__name {
+.features-box-name,
+.team-name,
+.portfolio-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
   color: #2e2f42;
 }
 
-.features__box-text,
-.team__position,
-.portfolio__describe {
+.features-box-text,
+.team-position,
+.portfolio-describe {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -232,18 +234,18 @@ body {
   color: #434455;
 }
 
-/* ================= TEAM ================= */
+/* TEAM */
 
 .team {
   background-color: #f4f4fd;
 }
 
-.team__inner {
+.team-inner {
   display: flex;
   gap: 24px;
 }
 
-.team__box {
+.team-box {
   width: calc((100% - 72px)/4);
   background-color: #ffffff;
   text-align: center;
@@ -254,23 +256,23 @@ body {
     0 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.team__content {
+.team-content {
   padding: 32px 16px;
 }
 
-/* ================= PORTFOLIO ================= */
+/* PORTFOLIO */
 
-.portfolio__inner {
+.portfolio-inner {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
 }
 
-.portfolio__item {
+.portfolio-item {
   width: calc((100% - 48px)/3);
 }
 
-.portfolio__card {
+.portfolio-card {
   max-width: 360px;
   width: 100%;
   background-color: #ffffff;
@@ -278,24 +280,24 @@ body {
   box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio__content {
+.portfolio-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
 
-/* ================= FOOTER ================= */
+/* FOOTER */
 
 .footer {
   padding: 100px 0;
   background-color: #2e2f42;
 }
 
-.footer__content {
+.footer-content {
   max-width: 264px;
 }
 
-.footer__text {
+.footer-text {
   margin-top: 16px;
   color: #f4f4fd;
 }
